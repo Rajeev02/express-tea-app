@@ -6,12 +6,16 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
+    "build": "echo 'No build step required'",
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "express"
   ],
+  "engines": {
+    "node": "18.x"
+  },
   "author": "rajeev joshi",
   "license": "ISC",
   "dependencies": {
