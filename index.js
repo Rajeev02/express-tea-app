@@ -13,6 +13,9 @@ let id = 0
 app.get('/', (req, res) => {
     res.send(`Hello Tea World!`)
 })
+app.get('/testing', (req, res) => {
+    res.send(`Server is up and running!`)
+})
 
 // Tea Routes
 app.use('/teas', teaRoutes)
