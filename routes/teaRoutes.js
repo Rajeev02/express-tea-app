@@ -2,6 +2,7 @@
 
 import express from 'express'
 import TeaModel from '../models/TeaModel.js'
+import logger from '../logger.js'
 
 const router = express.Router()
 
@@ -18,9 +19,14 @@ router.post('/', (req, res) => {
 
 // Get all teas
 router.get('/', (req, res) => {
+    logger.info('200', TeaModel.getAllTeas())
     res.status(200).send(TeaModel.getAllTeas())
 })
 
+// logger.info("This is an info message");
+// logger.error("This is an error message");
+// logger.warn("This is a warning message");
+// logger.debug("This is a debug message");
 // Get a tea by ID
 router.get('/:id', (req, res) => {
     const tea = TeaModel.getTeaById(req.params.id)
