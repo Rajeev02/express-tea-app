@@ -184,3 +184,105 @@
 {"body":{},"level":"\u001b[32minfo\u001b[39m","message":"Incoming Request","method":"DELETE","params":{},"timestamp":"2024-12-29T15:16:16.401Z","url":"/users/delete_all_users"}
 {"id":null,"level":"\u001b[33mwarn\u001b[39m","message":"User not found for deletion","timestamp":"2024-12-29T15:16:16.402Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"DELETE\",\"url\":\"/users/delete_all_users\",\"status\":\"404\",\"responseTime\":\"1.119\"}","timestamp":"2024-12-29T15:16:16.403Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Fetched all users","timestamp":"2024-12-29T15:26:46.083Z","users":[]}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/users/\",\"status\":\"200\",\"responseTime\":\"4.832\"}","timestamp":"2024-12-29T15:26:46.094Z"}
+{"email":"user1@example.com","id":1,"level":"\u001b[32minfo\u001b[39m","message":"User added successfully","name":"User_1","password":"password@123","role":"ADMIN","timestamp":"2024-12-29T15:26:49.372Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/users/\",\"status\":\"201\",\"responseTime\":\"0.865\"}","timestamp":"2024-12-29T15:26:49.373Z"}
+{"id":"1","level":"\u001b[32minfo\u001b[39m","message":"Fetched user by ID","timestamp":"2024-12-29T15:26:55.551Z","user":{"email":"user1@example.com","id":1,"name":"User_1","password":"password@123","role":"ADMIN"}}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/users/1\",\"status\":\"200\",\"responseTime\":\"1.545\"}","timestamp":"2024-12-29T15:26:55.552Z"}
+{"id":"1","level":"\u001b[32minfo\u001b[39m","message":"User updated successfully","timestamp":"2024-12-29T15:27:03.349Z","updatedUser":{"email":"user1@example.com","id":1,"name":"User_1","password":"password@123","role":"ADMIN"}}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"PUT\",\"url\":\"/users/1\",\"status\":\"200\",\"responseTime\":\"1.920\"}","timestamp":"2024-12-29T15:27:03.350Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Fetched all users","timestamp":"2024-12-29T15:27:14.506Z","users":[{"email":"user1@example.com","id":1,"name":"User_1","password":"password@123","role":"ADMIN"}]}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/users/\",\"status\":\"200\",\"responseTime\":\"1.741\"}","timestamp":"2024-12-29T15:27:14.509Z"}
+{"id":"1","level":"\u001b[32minfo\u001b[39m","message":"User updated successfully","timestamp":"2024-12-29T15:27:30.542Z","updatedUser":{"email":"user1@example.com","id":1,"name":"User_1","password":"password@123","role":"INVESTOR"}}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"PUT\",\"url\":\"/users/1\",\"status\":\"200\",\"responseTime\":\"0.941\"}","timestamp":"2024-12-29T15:27:30.543Z"}
+{"id":"1","level":"\u001b[32minfo\u001b[39m","message":"User deleted successfully","timestamp":"2024-12-29T15:27:39.028Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"DELETE\",\"url\":\"/users/1\",\"status\":\"200\",\"responseTime\":\"1.484\"}","timestamp":"2024-12-29T15:27:39.030Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Fetched all users","timestamp":"2024-12-29T15:27:42.492Z","users":[]}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/users/\",\"status\":\"200\",\"responseTime\":\"0.553\"}","timestamp":"2024-12-29T15:27:42.492Z"}
+{"email":"user1@example.com","id":2,"level":"\u001b[32minfo\u001b[39m","message":"User added successfully","name":"User_1","password":"password@123","role":"ADMIN","timestamp":"2024-12-29T15:27:45.725Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/users/\",\"status\":\"201\",\"responseTime\":\"0.855\"}","timestamp":"2024-12-29T15:27:45.726Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Fetched all users","timestamp":"2024-12-29T15:27:51.655Z","users":[{"email":"user1@example.com","id":2,"name":"User_1","password":"password@123","role":"ADMIN"}]}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/users/\",\"status\":\"200\",\"responseTime\":\"1.110\"}","timestamp":"2024-12-29T15:27:51.658Z"}
+{"id":"delete_all_users","level":"\u001b[33mwarn\u001b[39m","message":"User not found for deletion","timestamp":"2024-12-29T15:27:55.640Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"DELETE\",\"url\":\"/users/delete_all_users\",\"status\":\"404\",\"responseTime\":\"1.700\"}","timestamp":"2024-12-29T15:27:55.642Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Fetched all users","timestamp":"2024-12-29T15:28:02.945Z","users":[{"email":"user1@example.com","id":2,"name":"User_1","password":"password@123","role":"ADMIN"}]}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/users/\",\"status\":\"200\",\"responseTime\":\"0.612\"}","timestamp":"2024-12-29T15:28:02.946Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Fetched all users","timestamp":"2024-12-29T15:30:16.838Z","users":[]}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/users/\",\"status\":\"200\",\"responseTime\":\"7.280\"}","timestamp":"2024-12-29T15:30:16.843Z"}
+{"email":"user1@example.com","id":1,"level":"\u001b[32minfo\u001b[39m","message":"User added successfully","name":"User_1","password":"password@123","role":"ADMIN","timestamp":"2024-12-29T15:30:22.368Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/users/\",\"status\":\"201\",\"responseTime\":\"1.643\"}","timestamp":"2024-12-29T15:30:22.370Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Duplicate user entry attempted","timestamp":"2024-12-29T15:30:23.129Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/users/\",\"status\":\"400\",\"responseTime\":\"1.393\"}","timestamp":"2024-12-29T15:30:23.131Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Duplicate user entry attempted","timestamp":"2024-12-29T15:30:23.703Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/users/\",\"status\":\"400\",\"responseTime\":\"1.299\"}","timestamp":"2024-12-29T15:30:23.705Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Duplicate user entry attempted","timestamp":"2024-12-29T15:30:38.886Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/users/\",\"status\":\"400\",\"responseTime\":\"1.094\"}","timestamp":"2024-12-29T15:30:38.888Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Duplicate user entry attempted","timestamp":"2024-12-29T15:30:51.737Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/users/\",\"status\":\"400\",\"responseTime\":\"1.315\"}","timestamp":"2024-12-29T15:30:51.739Z"}
+{"deletedCount":1,"level":"\u001b[32minfo\u001b[39m","message":"Users deleted successfully","timestamp":"2024-12-29T15:32:14.943Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"DELETE\",\"url\":\"/users\",\"status\":\"200\",\"responseTime\":\"2.815\"}","timestamp":"2024-12-29T15:32:14.944Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Fetched all users","timestamp":"2024-12-29T15:32:20.512Z","users":[]}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/users/\",\"status\":\"200\",\"responseTime\":\"0.583\"}","timestamp":"2024-12-29T15:32:20.513Z"}
+{"id":"deleteAll","level":"\u001b[33mwarn\u001b[39m","message":"User not found for deletion","timestamp":"2024-12-29T15:35:40.696Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"DELETE\",\"url\":\"/users/deleteAll\",\"status\":\"404\",\"responseTime\":\"4.843\"}","timestamp":"2024-12-29T15:35:40.709Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Fetched all users","timestamp":"2024-12-29T15:35:47.766Z","users":[]}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/users/\",\"status\":\"200\",\"responseTime\":\"2.465\"}","timestamp":"2024-12-29T15:35:47.769Z"}
+{"email":"user3@example.com","id":1,"level":"\u001b[32minfo\u001b[39m","message":"User added successfully","name":"User_3","password":"password@123","role":"ADMIN","timestamp":"2024-12-29T15:35:52.274Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/users/\",\"status\":\"201\",\"responseTime\":\"0.696\"}","timestamp":"2024-12-29T15:35:52.275Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Duplicate user entry attempted","timestamp":"2024-12-29T15:35:59.759Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/users/\",\"status\":\"400\",\"responseTime\":\"1.521\"}","timestamp":"2024-12-29T15:35:59.760Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Duplicate user entry attempted","timestamp":"2024-12-29T15:36:12.504Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/users/\",\"status\":\"400\",\"responseTime\":\"1.699\"}","timestamp":"2024-12-29T15:36:12.505Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Duplicate user entry attempted","timestamp":"2024-12-29T15:36:18.929Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/users/\",\"status\":\"400\",\"responseTime\":\"0.649\"}","timestamp":"2024-12-29T15:36:18.930Z"}
+{"id":"deleteAll","level":"\u001b[33mwarn\u001b[39m","message":"User not found for deletion","timestamp":"2024-12-29T15:37:14.838Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"DELETE\",\"url\":\"/users/deleteAll\",\"status\":\"404\",\"responseTime\":\"1.735\"}","timestamp":"2024-12-29T15:37:14.840Z"}
+{"id":"deleteAll","level":"\u001b[33mwarn\u001b[39m","message":"User not found for deletion","timestamp":"2024-12-29T15:37:15.704Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"DELETE\",\"url\":\"/users/deleteAll\",\"status\":\"404\",\"responseTime\":\"1.031\"}","timestamp":"2024-12-29T15:37:15.705Z"}
+{"id":"delete_users","level":"\u001b[33mwarn\u001b[39m","message":"User not found for deletion","timestamp":"2024-12-29T15:39:08.709Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"DELETE\",\"url\":\"/users/delete_users/\",\"status\":\"404\",\"responseTime\":\"5.281\"}","timestamp":"2024-12-29T15:39:08.718Z"}
+{"id":"delete_users","level":"\u001b[33mwarn\u001b[39m","message":"User not found for deletion","timestamp":"2024-12-29T15:39:13.891Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"DELETE\",\"url\":\"/users/delete_users\",\"status\":\"404\",\"responseTime\":\"1.358\"}","timestamp":"2024-12-29T15:39:13.893Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Fetched all users","timestamp":"2024-12-29T15:40:58.519Z","users":[]}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/users/\",\"status\":\"200\",\"responseTime\":\"4.886\"}","timestamp":"2024-12-29T15:40:58.526Z"}
+{"email":"user5@example.com","id":1,"level":"\u001b[32minfo\u001b[39m","message":"User added successfully","name":"User_5","password":"password@123","role":"ADMIN","timestamp":"2024-12-29T15:41:03.070Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/users/\",\"status\":\"201\",\"responseTime\":\"0.793\"}","timestamp":"2024-12-29T15:41:03.071Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Fetched all users","timestamp":"2024-12-29T15:41:09.821Z","users":[{"email":"user5@example.com","id":1,"name":"User_5","password":"password@123","role":"ADMIN"}]}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/users/\",\"status\":\"200\",\"responseTime\":\"1.176\"}","timestamp":"2024-12-29T15:41:09.822Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Duplicate user entry attempted","timestamp":"2024-12-29T15:41:37.381Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/users/\",\"status\":\"400\",\"responseTime\":\"1.524\"}","timestamp":"2024-12-29T15:41:37.382Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Duplicate user entry attempted","timestamp":"2024-12-29T15:41:43.875Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/users/\",\"status\":\"400\",\"responseTime\":\"0.887\"}","timestamp":"2024-12-29T15:41:43.877Z"}
+{"email":"user56@example.com","id":1,"level":"\u001b[32minfo\u001b[39m","message":"User added successfully","name":"User6","password":"password@123","role":"ADMIN","timestamp":"2024-12-29T15:46:01.013Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/users/\",\"status\":\"201\",\"responseTime\":\"5.691\"}","timestamp":"2024-12-29T15:46:01.022Z"}
+{"email":"user56@example.com","id":2,"level":"\u001b[32minfo\u001b[39m","message":"User added successfully","name":"User6","password":"password@123","role":"ADMIN","timestamp":"2024-12-29T15:46:02.125Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/users/\",\"status\":\"201\",\"responseTime\":\"2.333\"}","timestamp":"2024-12-29T15:46:02.128Z"}
+{"email":"user56@example.com","id":3,"level":"\u001b[32minfo\u001b[39m","message":"User added successfully","name":"User6","password":"password@123","role":"ADMIN","timestamp":"2024-12-29T15:46:03.006Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/users/\",\"status\":\"201\",\"responseTime\":\"1.671\"}","timestamp":"2024-12-29T15:46:03.008Z"}
+{"email":"user56@example.com","id":4,"level":"\u001b[32minfo\u001b[39m","message":"User added successfully","name":"User6","password":"password@123","role":"ADMIN","timestamp":"2024-12-29T15:46:03.701Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/users/\",\"status\":\"201\",\"responseTime\":\"1.329\"}","timestamp":"2024-12-29T15:46:03.703Z"}
+{"email":"user56@example.com","id":5,"level":"\u001b[32minfo\u001b[39m","message":"User added successfully","name":"User6","password":"password@123","role":"ADMIN","timestamp":"2024-12-29T15:46:05.847Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/users/\",\"status\":\"201\",\"responseTime\":\"1.638\"}","timestamp":"2024-12-29T15:46:05.849Z"}
+{"email":"user56@example.com","id":6,"level":"\u001b[32minfo\u001b[39m","message":"User added successfully","name":"User6","password":"password@123","role":"ADMIN","timestamp":"2024-12-29T15:46:06.768Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/users/\",\"status\":\"201\",\"responseTime\":\"0.813\"}","timestamp":"2024-12-29T15:46:06.769Z"}
+{"email":"user56@example.com","id":7,"level":"\u001b[32minfo\u001b[39m","message":"User added successfully","name":"User6","password":"password@123","role":"ADMIN","timestamp":"2024-12-29T15:46:07.602Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/users/\",\"status\":\"201\",\"responseTime\":\"0.553\"}","timestamp":"2024-12-29T15:46:07.604Z"}
+{"email":"user56@example.com","id":8,"level":"\u001b[32minfo\u001b[39m","message":"User added successfully","name":"User6","password":"password@123","role":"ADMIN","timestamp":"2024-12-29T15:46:08.452Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/users/\",\"status\":\"201\",\"responseTime\":\"0.884\"}","timestamp":"2024-12-29T15:46:08.453Z"}
+{"email":"user56@example.com","id":9,"level":"\u001b[32minfo\u001b[39m","message":"User added successfully","name":"User6","password":"password@123","role":"ADMIN","timestamp":"2024-12-29T15:46:09.346Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/users/\",\"status\":\"201\",\"responseTime\":\"0.732\"}","timestamp":"2024-12-29T15:46:09.347Z"}
+{"email":"user56@example.com","id":10,"level":"\u001b[32minfo\u001b[39m","message":"User added successfully","name":"User6","password":"password@123","role":"ADMIN","timestamp":"2024-12-29T15:46:10.418Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/users/\",\"status\":\"201\",\"responseTime\":\"1.243\"}","timestamp":"2024-12-29T15:46:10.420Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Fetched all users","timestamp":"2024-12-29T15:46:16.970Z","users":[{"email":"user56@example.com","id":1,"name":"User6","password":"password@123","role":"ADMIN"},{"email":"user56@example.com","id":2,"name":"User6","password":"password@123","role":"ADMIN"},{"email":"user56@example.com","id":3,"name":"User6","password":"password@123","role":"ADMIN"},{"email":"user56@example.com","id":4,"name":"User6","password":"password@123","role":"ADMIN"},{"email":"user56@example.com","id":5,"name":"User6","password":"password@123","role":"ADMIN"},{"email":"user56@example.com","id":6,"name":"User6","password":"password@123","role":"ADMIN"},{"email":"user56@example.com","id":7,"name":"User6","password":"password@123","role":"ADMIN"},{"email":"user56@example.com","id":8,"name":"User6","password":"password@123","role":"ADMIN"},{"email":"user56@example.com","id":9,"name":"User6","password":"password@123","role":"ADMIN"},{"email":"user56@example.com","id":10,"name":"User6","password":"password@123","role":"ADMIN"}]}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/users/\",\"status\":\"200\",\"responseTime\":\"1.652\"}","timestamp":"2024-12-29T15:46:16.972Z"}
+{"id":"1","level":"\u001b[32minfo\u001b[39m","message":"Fetched user by ID","timestamp":"2024-12-29T15:46:49.403Z","user":{"email":"user56@example.com","id":1,"name":"User6","password":"password@123","role":"ADMIN"}}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/users/1\",\"status\":\"200\",\"responseTime\":\"1.967\"}","timestamp":"2024-12-29T15:46:49.404Z"}
+{"id":"11","level":"\u001b[33mwarn\u001b[39m","message":"User not found","timestamp":"2024-12-29T15:47:07.288Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/users/11\",\"status\":\"404\",\"responseTime\":\"1.167\"}","timestamp":"2024-12-29T15:47:07.289Z"}
+{"id":"12","level":"\u001b[33mwarn\u001b[39m","message":"User not found","timestamp":"2024-12-29T15:47:14.234Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/users/12\",\"status\":\"404\",\"responseTime\":\"0.574\"}","timestamp":"2024-12-29T15:47:14.236Z"}
+{"id":"2","level":"\u001b[32minfo\u001b[39m","message":"Fetched user by ID","timestamp":"2024-12-29T15:47:22.246Z","user":{"email":"user56@example.com","id":2,"name":"User6","password":"password@123","role":"ADMIN"}}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/users/2\",\"status\":\"200\",\"responseTime\":\"0.665\"}","timestamp":"2024-12-29T15:47:22.247Z"}
+{"id":"2","level":"\u001b[32minfo\u001b[39m","message":"Fetched user by ID","timestamp":"2024-12-29T15:47:34.407Z","user":{"email":"user56@example.com","id":2,"name":"User6","password":"password@123","role":"ADMIN"}}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/users/2\",\"status\":\"200\",\"responseTime\":\"0.760\"}","timestamp":"2024-12-29T15:47:34.409Z"}

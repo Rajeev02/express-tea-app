@@ -9,6 +9,12 @@ router.post('/', (req, res) => {
     try {
         const teaData = req.body;
         const result = TeaModel.addTea(teaData);
+
+        if (result === null) {
+            logger.warn('Duplicate tea entry attempted');
+            return res.status(400).send({ message: 'Tea with the same name already exists.' });
+        }
+
         if (Array.isArray(result)) {
             logger.info('Teas added successfully', { teas: result });
             res.status(201).send({ message: 'Teas added successfully', teas: result });
@@ -87,21 +93,6 @@ router.put('/', (req, res) => {
     } catch (error) {
         logger.error('Error in bulk updating teas', error);
         res.status(500).send('An error occurred while updating teas.');
-    }
-});
-
-// Clear All Teas
-router.delete('/delete_all', (req, res) => {
-    try {
-        const deletedCount = TeaModel.deleteAllTeas();
-        logger.info('All teas deleted', { deletedCount });
-        res.status(200).send({
-            message: 'All teas have been deleted successfully',
-            deletedCount
-        });
-    } catch (error) {
-        logger.error('Error clearing all teas', error);
-        res.status(500).send('An error occurred while clearing all teas.');
     }
 });
 
