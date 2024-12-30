@@ -4,6 +4,7 @@ import express from 'express'
 import mongoose from 'mongoose';
 import userRoutes from './routes/userRoutes.js'
 import adminRoutes from './routes/adminRoutes.js'
+import authRoutes from './routes/authRoutes.js'
 import logger from "./logger.js";
 import morgan from "morgan";
 
@@ -42,18 +43,14 @@ app.use(
         },
     })
 );
-
 app.use(express.json())
-
+//routes
 app.get('/', (req, res) => {
     res.send(`Hello World!`)
 })
-
-// User Routes
+app.use('/auth', authRoutes)
 app.use('/users', userRoutes)
-
 app.use('/admin', adminRoutes)
-
 
 app.listen(port, () => {
     console.log(`Server is running at app listening on port ${port}...`)
