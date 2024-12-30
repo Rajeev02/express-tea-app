@@ -1,20 +1,20 @@
-# npm run dev
-
 # express-tea-app
 
-AUTHENTICATION_AND_USER_COLLECTIONS
+# npm run dev
+
+## Authentication and User Collections
 
 Users
 
 GET
 GET_ALL_USERS
-{{localhost}}/users/
+`{{localhost}}/users/`
 
 Example
 GET_ALL_USERS_RESPONSE
 Request
 cURL
-curl --location --globoff '{{localhost}}/users/'
+`` `curl --location --globoff '{{localhost}}/users/'` ``
 200 OK
 Response
 Body
@@ -391,8 +391,8 @@ json
 "email": "Daphne_Reichert@yahoo.com",
 "username":"Thomas88",
 "password": "N_ERYNTEauz8BHX",
-"age": "761",
-"status": "true"
+"age": 761,
+"status": true
 }
 Example
 ADD_NEW_USER_RESPONSE
@@ -404,8 +404,8 @@ curl --location --globoff '{{localhost}}/users/' \
 "email": "Jett.Wuckert@hotmail.com",
 "username":"Josiane.Kuvalis75",
 "password": "iW1vk5cZcf6SutX",
-"age": "539",
-"status": "true"
+"age": 539,
+"status": true
 }'
 201 CREATED
 Response
@@ -419,9 +419,9 @@ json
 "password": "sW31lga_DpPpm6i",
 "age": 995,
 "status": false,
-"\_id": "67722f6c1c9cbc44248f3539",
+"_id": "67722f6c1c9cbc44248f3539",
 "createdAt": "2024-12-30T05:28:12.210Z",
-"\_\_v": 0
+"__v": 0
 }
 POST
 ADD_MULTIPLE_NEW_USERS
@@ -437,40 +437,40 @@ json
 "email": "Rupert.Mueller@hotmail.com",
 "username": "Alphonso78",
 "password": "9X9In_gI6sfqWYf",
-"age": "449",
-"status": "true"
+"age": 449,
+"status": true
 },
 {
 "name": "Felipe Langworth PhD",
 "email": "Arden7@hotmail.com",
 "username": "Dock8",
 "password": "JYgX0wDB5CbFYSh",
-"age": "286",
-"status": "true"
+"age": 286,
+"status": true
 },
 {
 "name": "Darrel Conroy",
 "email": "Lavon45@yahoo.com",
 "username": "Judah45",
 "password": "Ga_qvr6kiBotTLM",
-"age": "411",
-"status": "false"
+"age": 411,
+"status": false
 },
 {
 "name": "Frankie Hamill",
 "email": "Benedict_Daniel@hotmail.com",
 "username": "Kavon_Lebsack",
 "password": "RenLEuk6Uk1lrsI",
-"age": "738",
-"status": "true"
+"age": 738,
+"status": true
 },
 {
 "name": "Ken Bergstrom",
 "email": "Gerry69@gmail.com",
 "username": "Willie_Blick",
 "password": "MHIZsUroEjJEo2R",
-"age": "813",
-"status": "true"
+"age": 813,
+"status": true
 }
 ]
 Example
@@ -731,7 +731,6 @@ json
 "createdAt": "2024-12-30T06:38:53.632Z",
 "\_\_v": 0
 },
-"password": "XtAQ3ZV1cCQTBvj"
 }
 POST
 RESET_PASSWORD
@@ -829,7 +828,7 @@ json
 {
 "message": "Login successful",
 "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NzIzZmZkNjU0YTEyNzg4ZGM0NWY3MiIsImlhdCI6MTczNTU0MDc3NywiZXhwIjoxNzM1NTQ0Mzc3fQ.XnGKNF0xVB8-rRj-n8qFkah-MKa-H-F5mKYpa5WWx-U"
-}
+"token": "<token>"
 ADMIN
 
 DELETE
