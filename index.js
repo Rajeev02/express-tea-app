@@ -1,8 +1,8 @@
 
 import 'dotenv/config'
 import express from 'express'
+import mongoose from 'mongoose';
 import userRoutes from './routes/userRoutes.js'
-import teaRoutes from './routes/teaRoutes.js'
 import logger from "./logger.js";
 import morgan from "morgan";
 
@@ -12,9 +12,20 @@ const morganFormat = ":method :url :status :response-time ms";
 const app = express()
 const port = process.env.PORT || 3000
 
-app.use(express.json())
 
+// Database Connection
+mongoose
+    .connect(process.env.MONGO_URI, {
+        useNewUrlParser: true,
+        useUnifiedTopology: true,
+    })
+    .then(() => logger.info('Connected to MongoDB'))
+    .catch((err) => {
+        logger.error('Error connecting to MongoDB', err);
+        process.exit(1);
+    });
 
+// Logger Middleware
 app.use(
     morgan(morganFormat, {
         stream: {
@@ -30,17 +41,16 @@ app.use(
         },
     })
 );
-let teas = []
-let id = 0
+
+app.use(express.json())
 
 app.get('/', (req, res) => {
-    res.send(`Hello Tea World!`)
+    res.send(`Hello World!`)
 })
 
-// Tea Routes
-app.use('/teas', teaRoutes)
 // User Routes
 app.use('/users', userRoutes)
+
 app.listen(port, () => {
     console.log(`Server is running at app listening on port ${port}...`)
 })
