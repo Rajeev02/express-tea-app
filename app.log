@@ -745,3 +745,5 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"DELETE\",\"url\":\"/admin\",\"status\":\"200\",\"responseTime\":\"27.010\"}","timestamp":"2024-12-30T07:09:59.799Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Fetched all users","timestamp":"2024-12-30T07:10:06.529Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/users/\",\"status\":\"200\",\"responseTime\":\"5.257\"}","timestamp":"2024-12-30T07:10:06.531Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connected to MongoDB","timestamp":"2024-12-30T07:42:24.748Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connected to MongoDB","timestamp":"2024-12-30T07:42:25.688Z"}
