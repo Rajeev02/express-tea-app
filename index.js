@@ -3,6 +3,7 @@ import 'dotenv/config'
 import express from 'express'
 import mongoose from 'mongoose';
 import userRoutes from './routes/userRoutes.js'
+import adminRoutes from './routes/adminRoutes.js'
 import logger from "./logger.js";
 import morgan from "morgan";
 
@@ -50,6 +51,9 @@ app.get('/', (req, res) => {
 
 // User Routes
 app.use('/users', userRoutes)
+
+app.use('/admin', adminRoutes)
+
 
 app.listen(port, () => {
     console.log(`Server is running at app listening on port ${port}...`)
